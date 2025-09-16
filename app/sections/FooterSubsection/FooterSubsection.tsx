@@ -66,19 +66,19 @@ export default function FooterSubsection  () {
        
                    <div className="flex items-start gap-[100px] max-[767px]:gap-10">
                    <div className="flex flex-col items-start gap-6 max-[767px]:gap-4">
-  {footerMenuColumn1.map((item, index) => (
-    <Link
-      key={index}
-      href={item.id}
-      className="opacity-70 font-THICCCBOI font-regular text-neutral-100 text-lg 
-        max-[1100px]:text-[16px] max-[767px]:text-sm max-[767px]:leading-[18px]  
-        text-center tracking-[0] leading-5 whitespace-nowrap cursor-pointer 
-        hover:opacity-100 transition-opacity"
-    >
-      {item.name}
-    </Link>
-  ))}
-</div>
+                    {footerMenuColumn1.map((item, index) => (
+                      <Link
+                        key={index}
+                        href={item.id}
+                        className="opacity-70 font-THICCCBOI font-regular text-neutral-100 text-lg 
+                          max-[1100px]:text-[16px] max-[767px]:text-sm max-[767px]:leading-[18px]  
+                          text-center tracking-[0] leading-5 whitespace-nowrap cursor-pointer 
+                          hover:opacity-100 transition-opacity"
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
+                  </div>
 
        
                      <div className="flex flex-col items-start gap-6 max-[767px]:gap-4">
@@ -99,14 +99,14 @@ export default function FooterSubsection  () {
                      Follow us
                    </div>
        
-                   <div className="flex flex-col items-start gap-5 max-[767px]:gap-4 relative z-11">
+                   <div className="flex flex-col items-start relative z-11">
                      {socialLinks.map((social, index) => (
                        <div
                          key={index}
-                         className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity"
+                         className="flex items-center gap-px cursor-pointer hover:opacity-80 transition-opacity"
                        >
-                              <div className="w-7 h-7 flex items-center justify-center">
-                              <img src={social.icon} alt={social.name} className="w-full h-full object-contain" />
+                              <div className="w-12 h-12  flex items-center justify-center">
+                              <img src={social.icon} alt={social.name} className="w-12 h-12 object-cover" />
                               </div>
 
                          <div className="opacity-70 font-THICCCBOI font-regular text-neutral-100 text-lg max-[1100px]:text-base max-[767px]:text-sm max-[767px]:leading-[18px] text-center tracking-[0] leading-5 whitespace-nowrap">

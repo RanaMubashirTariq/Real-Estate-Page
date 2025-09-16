@@ -27,7 +27,7 @@ export default function HeaderSubsection  () {
             <img className="relative w-[176.97px] max-[767px]:w-[140px] h-[37.97px]" src='/logo.png' alt="Group" />
           </div>
 
-          <nav className="max-[1000px]:hidden flex items-center justify-center gap-8 relative flex-[0_0_auto]">
+          <nav className="max-[1000px]:hidden flex items-center justify-center gap-8  relative flex-[0_0_auto]">
   {navigationItems.map((item, index) => (
     <Link
       key={item.name}
