@@ -45,7 +45,7 @@ export default function HeaderSubsection  () {
 
         <div className=" max-[1000px]:hidden flex w-[156px] h-[58px] items-center justify-end gap-4">
           <div className="inline-flex items-start relative flex-[0_0_auto]">
-            <Button className="inline-flex items-center justify-center gap-1 px-6 py-5 relative flex-[0_0_auto] bg-neutral-100 rounded-xl border border-solid border-black shadow-[inset_5px_5px_5px_#00000040] hover:bg-neutral-200 h-auto">
+            <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90  inline-flex items-center justify-center gap-1 px-6 py-5 relative flex-[0_0_auto] bg-neutral-100 rounded-xl border border-solid border-black shadow-[inset_5px_5px_5px_#00000040] hover:bg-neutral-200 h-auto">
               <div className="relative w-fit mt-[-1.00px] font-THICCCBOI font-bold text-neutral-800 text-base text-center tracking-[0] leading-[18px] whitespace-nowrap">
                 Get started
               </div>
@@ -100,7 +100,7 @@ export default function HeaderSubsection  () {
 
           <div className=" flex w-[156px] h-[58px] max-[1000px]:w-[120px] max-[1000px]:h-[40px] items-start justify-start gap-4">
           <div className="inline-flex items-start relative">
-            <Button className="inline-flex items-center justify-center gap-1 px-6 py-5 max-[1000px]:px-2 max-[1000px]:py-2 relative flex-[0_0_auto] bg-neutral-100 rounded-xl border border-solid border-black shadow-[inset_5px_5px_5px_#00000040] hover:bg-neutral-200 h-auto">
+            <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90  inline-flex items-center justify-center gap-1 px-6 py-5 max-[1000px]:px-2 max-[1000px]:py-2 relative flex-[0_0_auto] bg-neutral-100 rounded-xl border border-solid border-black shadow-[inset_5px_5px_5px_#00000040] hover:bg-neutral-200 h-auto">
               <div className="relative w-fit mt-[-1.00px] font-THICCCBOI font-bold text-neutral-800 text-14 text-center tracking-[0] leading-[18px] whitespace-nowrap">
                 Get started
               </div>

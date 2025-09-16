@@ -37,7 +37,7 @@ export default function FrameSubsection  () {
               Minimalist Dream House, Let&apos;s Discuss.
             </p>
 
-            <Button className="h-auto inline-flex items-center justify-center gap-1 px-6 py-5 max-[767px]:px-4 max-[767px]:py-4 bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_6px_#00000040] hover:bg-primary-color/90">
+            <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90  h-auto inline-flex items-center justify-center gap-1 px-6 py-5 max-[767px]:px-4 max-[767px]:py-4 bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_6px_#00000040] hover:bg-primary-color/90">
               <span className="font-THICCCBOI font-bold text-neutral-100 text-base max-[767px]:text-sm text-center tracking-[0] leading-[18px] whitespace-nowrap">
                 Get in Touch
               </span>
@@ -91,7 +91,7 @@ export default function FrameSubsection  () {
                 src="/ci-location.png"
               />
 
-              <Button className="absolute w-[188px] h-[71px] max-[900px]:w-[130px] max-[767px]:h-[40px] max-[900px]:h-[45px]  max-[900px]:py-[15px] pt-[26px] pb-[22px] top-2 right-2 max-[767px]:top-20  max-[767px]:left-2 bg-[#f15a29] rounded-[10px] shadow-[inset_5px_5px_4px_#00000040] font-THICCCBOI font-bold text-neutral-100 text-xl max-[1100px]:text-[18px] max-[1000px]:text-[16px] max-[767px]:text-sm tracking-[0.20px] leading-[normal] h-auto">
+              <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90  absolute w-[188px] h-[71px] max-[900px]:w-[130px] max-[767px]:h-[40px] max-[900px]:h-[45px]  max-[900px]:py-[15px] pt-[26px] pb-[22px] top-2 right-2 max-[767px]:top-20  max-[767px]:left-2 bg-[#f15a29] rounded-[10px] shadow-[inset_5px_5px_4px_#00000040] font-THICCCBOI font-bold text-neutral-100 text-xl max-[1100px]:text-[18px] max-[1000px]:text-[16px] max-[767px]:text-sm tracking-[0.20px] leading-[normal] h-auto">
                 Search Now
               </Button>
             </div>

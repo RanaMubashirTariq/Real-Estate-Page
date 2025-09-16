@@ -19,7 +19,7 @@ export default function NewsletterCtaSubsection  () {
             defaultValue=""
           />
 
-          <Button className="inline-flex items-center justify-center gap-1 px-8 py-5 max-[500px]:px-4 max-[500px]:py-4 absolute top-[13px] left-[308px] max-[500px]:top-[70px] max-[500px]:left-[90px] max-[400px]:left-[80px] max-[365px]:left-[60px] max-[350px]:left-[60px] max-[330px]:left-[40px]  max-[600px]:left-[238px] bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_11px_#00000040] h-auto hover:bg-[#f15a29]/80">
+          <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90  inline-flex items-center justify-center gap-1 px-8 py-5 max-[500px]:px-4 max-[500px]:py-4 absolute top-[13px] left-[308px] max-[500px]:top-[70px] max-[500px]:left-[90px] max-[400px]:left-[80px] max-[365px]:left-[60px] max-[350px]:left-[60px] max-[330px]:left-[40px]  max-[600px]:left-[238px] bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_11px_#00000040] h-auto hover:bg-[#f15a29]/80">
             <span className="relative w-fit mt-[-1.00px] font-THICCCBOI font-bold text-neutral-100 text-base max-[767px]:text-sm text-center tracking-[0] leading-[18px] whitespace-nowrap">
               Get in Touch
             </span>
