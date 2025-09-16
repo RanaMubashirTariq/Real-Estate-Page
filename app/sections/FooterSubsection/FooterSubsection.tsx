@@ -39,7 +39,7 @@ export default function FooterSubsection  () {
         />
 
         <img
-          className="absolute w-full h-px top-[532px] max-[1300px]:top-[550px] max-[1100px]:top-[500px]  left-0  max-[900px]:top-[622px] max-[767px]:top-[450px] max-[500px]:top-[450px] max-[500px]:top-[450px] max-[420px]:top-[720px]"
+          className="absolute w-full h-px top-[532px] max-[1300px]:top-[550px] max-[1100px]:top-[500px]  left-0  max-[900px]:top-[622px] max-[767px]:top-[450px] max-[500px]:top-[450px] max-[500px]:top-[450px] max-[420px]:top-[770px]"
           alt="Divider"
           src="/divider.svg"
         />
