@@ -22,11 +22,11 @@ export default function FooterSubsection  () {
   ];
 
   const socialLinks = [
-    { icon: '/facebook.png', name: "Facebook" },
-    { icon: '/twitter.png', name: "Twitter" },
-    { icon: '/instagram.png', name: "Instagram" },
-    { icon: '/linkin.png', name: "LinkedIn" },
-    { icon: '/youtube.png', name: "YouTube" },
+    { icon: '/facebook.png', name: "Facebook" , links:'https://www.facebook.com/EstatePro' },
+    { icon: '/twitter.png', name: "Twitter" , links:'https://twitter.com/EstatePro' },
+    { icon: '/instagram.png', name: "Instagram" , links:'https://www.instagram.com/EstatePro' },
+    { icon: '/linkin.png', name: "LinkedIn" , links:'https://www.linkedin.com/company/EstatePro' },
+    { icon: '/youtube.png', name: "YouTube" , links:'https://www.youtube.com/@EstatePro' },
   ];
 
   return (
@@ -101,10 +101,11 @@ export default function FooterSubsection  () {
        
                    <div className="flex flex-col items-start relative z-11">
                      {socialLinks.map((social, index) => (
-                       <div
-                         key={index}
+                      <Link
+                          key={index}
+                          href={social.links}
                          className="flex items-center gap-px cursor-pointer hover:opacity-80 transition-opacity"
-                       >
+                      >
                               <div className="w-12 h-12  flex items-center justify-center">
                               <img src={social.icon} alt={social.name} className="w-12 h-12 object-cover" />
                               </div>
@@ -112,7 +113,7 @@ export default function FooterSubsection  () {
                          <div className="opacity-70 font-THICCCBOI font-regular text-neutral-100 text-lg max-[1100px]:text-base max-[767px]:text-sm max-[767px]:leading-[18px] text-center tracking-[0] leading-5 whitespace-nowrap">
                            {social.name}
                          </div>
-                       </div>
+                        </Link>
                      ))}
                    </div>
                  </div>

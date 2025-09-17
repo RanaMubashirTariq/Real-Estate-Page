@@ -1,8 +1,10 @@
+'use client'
 import React from "react";
 import Reveal from "../../components/Reveal";
 import Counter from "../../components/Counter"; 
 import { Button } from "../../components/ui/button";
 import { Input } from "../../components/ui/input";
+import {motion} from 'framer-motion'
 
 export default function FrameSubsection  () {
   const statistics = [
@@ -37,11 +39,19 @@ export default function FrameSubsection  () {
               Minimalist Dream House, Let&apos;s Discuss.
             </p>
 
-            <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90  h-auto inline-flex items-center justify-center gap-1 px-6 py-5 max-[767px]:px-4 max-[767px]:py-4 bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_6px_#00000040] hover:bg-primary-color/90">
+              <motion.div 
+                  whileHover={{scale:0.9}}
+                  whileTap={{scale:1}}
+                  className="inline-flex items-center justify-center"
+                 >
+              <Button
+                 
+            className="cursor-pointer h-auto  gap-1 px-6 py-5 max-[767px]:px-4 max-[767px]:py-4 bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_6px_#00000040] hover:bg-primary-color/90">
               <span className="font-THICCCBOI font-bold text-neutral-100 text-base max-[767px]:text-sm text-center tracking-[0] leading-[18px] whitespace-nowrap">
                 Get in Touch
               </span>
             </Button>
+              </motion.div>
           </Reveal>
 
           <Reveal className="flex items-center gap-[25px] w-full max-[500px]:flex-col max-[500px]:gap-4 delay-200">
@@ -91,9 +101,14 @@ export default function FrameSubsection  () {
                 src="/ci-location.png"
               />
 
-              <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90  absolute w-[188px] h-[71px] max-[900px]:w-[130px] max-[767px]:h-[40px] max-[900px]:h-[45px]  max-[900px]:py-[15px] pt-[26px] pb-[22px] top-2 right-2 max-[767px]:top-20  max-[767px]:left-2 bg-[#f15a29] rounded-[10px] shadow-[inset_5px_5px_4px_#00000040] font-THICCCBOI font-bold text-neutral-100 text-xl max-[1100px]:text-[18px] max-[1000px]:text-[16px] max-[767px]:text-sm tracking-[0.20px] leading-[normal] h-auto">
+               <motion.div
+                   whileHover={{scale:0.9}}
+                   whileTap={{scale:1}}
+               className="absolute top-2 right-2 max-[767px]:top-20  max-[767px]:left-2">
+               <Button className="cursor-pointer    w-[188px] h-[71px] max-[900px]:w-[130px] max-[767px]:h-[40px] max-[900px]:h-[45px]  max-[900px]:py-[15px] pt-[26px] pb-[22px]  bg-[#f15a29] rounded-[10px] shadow-[inset_5px_5px_4px_#00000040] font-THICCCBOI font-bold text-neutral-100 text-xl max-[1100px]:text-[18px] max-[1000px]:text-[16px] max-[767px]:text-sm tracking-[0.20px] leading-[normal] h-auto">
                 Search Now
               </Button>
+               </motion.div>
             </div>
           </Reveal>
     </section>

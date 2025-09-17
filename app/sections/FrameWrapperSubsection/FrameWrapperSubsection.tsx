@@ -1,8 +1,9 @@
-import { ChevronRightIcon } from "lucide-react";
+'use client'
 import React from "react";
 import { Badge } from "../../components/ui/badge";
 import { Button } from "../../components/ui/button";
 import { Card, CardContent } from "../../components/ui/card";
+import {motion} from 'framer-motion'
 
 export default function FrameWrapperSubsection  ()  {
   const properties = [
@@ -47,15 +48,21 @@ export default function FrameWrapperSubsection  ()  {
           Popular Resident
         </h2>
 
-        <Button
-          variant="ghost"
-          className="flex items-center gap-2 h-auto p-0 hover:bg-transparent"
+       <motion.div
+         whileHover={{scale:0.9}}
+         whileTap={{scale:1}}
+         className="hover:border p-2 rounded-[8px] transition"
         >
-          <span className="cursor-pointer transform transition-transform duration-300 hover:scale-90  font-THICCCBOI font-regular text-neutral-800 text-base tracking-[0] leading-6">
+       <Button
+          variant="ghost"
+          className="flex items-center gap-2 h-auto p-0 hover:bg-transparent cursor-pointer "
+        >
+          <span className=" font-THICCCBOI font-regular text-neutral-800 text-base tracking-[0] leading-6">
             Explore All
           </span>
           <img src='/vector-710.png' className="w-7 h-[15px]" />
         </Button>
+       </motion.div>
       </header>
 
       <div className="grid grid-cols-2 max-[767px]:grid-cols-1 gap-5 w-full">

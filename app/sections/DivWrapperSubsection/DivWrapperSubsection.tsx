@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import {
   Avatar,
@@ -6,13 +7,20 @@ import {
 } from "../../components/ui/avatar";
 import { Button } from "../../components/ui/button";
 import { Card, CardContent } from "../../components/ui/card";
+import {motion} from 'framer-motion'
 
 export default function DivWrapperSubsection  ()  {
   return (
     <section className="w-full h-[1050px] max-[1000px]:h-[850px] max-[600px]:h-[700px] max-[500px]:h-[750px] relative bg-cover bg-[50%_50%]">
         <img src="/back-img.png" className="w-full h-full " alt="" />
-      <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90  inline-flex items-center justify-center gap-2.5 px-8 py-4 absolute top-[880px] max-[1000px]:top-[760px] max-[767px]:top-[580px] max-[500px]:top-[650px] max-[500px]:right-[130px] max-[400px]:right-[100px] right-[617px] max-[1300px]:right-[550px] max-[1100px]:right-[400px] max-[900px]:right-[350px] max-[800px]:right-[300px] max-[600px]:right-[200px] max-[530px]:right-[170px] bg-[#f15a29] rounded-[5px] shadow-[inset_5px_5px_8px_#00000040] h-auto">
-        <span className="relative w-fit mt-[-1.00px] [font-family:'THICCCBOI-SemiBold',Helvetica] font-semibold text-neutral-100 text-lg max-[1000px]:text-base tracking-[0.18px] leading-[18px] whitespace-nowrap">
+  
+        <motion.div 
+                  whileHover={{scale:0.8}}
+                  whileTap={{scale:0.9}}
+                  className="inline-flex items-center justify-center absolute top-[880px] max-[1000px]:top-[760px] max-[767px]:top-[580px] max-[500px]:top-[650px] max-[500px]:right-[130px] max-[400px]:right-[100px] right-[617px] max-[1300px]:right-[550px] max-[1100px]:right-[400px] max-[900px]:right-[350px] max-[800px]:right-[300px] max-[600px]:right-[200px] max-[530px]:right-[170px]"
+          >
+      <Button className=" cursor-pointer  gap-2.5 px-8 py-4  bg-[#f15a29] rounded-[5px] shadow-[inset_5px_5px_8px_#00000040] h-auto">
+        <span className="relative w-fit mt-[-1.00px] THICCCBOI font-semibold text-neutral-100 text-lg max-[1000px]:text-base tracking-[0.18px] leading-[18px] whitespace-nowrap">
           Get In Touch
         </span>
 
@@ -22,6 +30,7 @@ export default function DivWrapperSubsection  ()  {
           src="/vector-710.svg"
         />
       </Button>
+      </motion.div>
 
       <div className="absolute w-[1246px] h-[700px] top-[120px] max-[1000px]:top-[60px] max-[767px]:top-10 left-[100px] max-[1100px]:left-[50px] max-[767px]:left-[25px]">
         <div className="flex flex-col w-[900px] max-[500px]:w-[400px] items-start gap-[49px] absolute top-0 left-0  max-[500px]:pr-[25px]">

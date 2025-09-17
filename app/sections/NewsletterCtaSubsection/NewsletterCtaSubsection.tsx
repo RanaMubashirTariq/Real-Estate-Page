@@ -1,6 +1,8 @@
+'use client'
 import React from "react";
 import { Button } from "../../components/ui/button";
 import { Input } from "../../components/ui/input";
+import {motion} from 'framer-motion'
 
 export default function NewsletterCtaSubsection  () {
   return (
@@ -18,12 +20,18 @@ export default function NewsletterCtaSubsection  () {
             className="absolute w-full h-full top-0 left-0 bg-transparent border-none shadow-none text-lg max-[1100px]:text-[base] max-[767px]:text-sm font-THICCCBOI font-normal text-neutral-800 placeholder:text-neutral-800 placeholder:opacity-50 px-[27px] py-[30px] focus-visible:ring-0 focus-visible:ring-offset-0"
             defaultValue=""
           />
-
-          <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90  inline-flex items-center justify-center gap-1 px-8 py-5 max-[500px]:px-4 max-[500px]:py-4 absolute top-[13px] left-[308px] max-[500px]:top-[70px] max-[500px]:left-[90px] max-[400px]:left-[80px] max-[365px]:left-[60px] max-[350px]:left-[60px] max-[330px]:left-[40px]  max-[600px]:left-[238px] bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_11px_#00000040] h-auto hover:bg-[#f15a29]/80">
+            <motion.div
+              whileHover={{scale:0.9}}
+              whileTap={{scale:1}}
+              className="inline-flex items-center justify-center absolute top-[13px] left-[308px] max-[500px]:top-[70px] max-[500px]:left-[90px] max-[400px]:left-[80px] max-[365px]:left-[60px] max-[350px]:left-[60px] max-[330px]:left-[40px]  max-[600px]:left-[238px] "
+            >
+            <Button className="cursor-pointer  gap-1 px-8 py-5 max-[500px]:px-4 max-[500px]:py-4  bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_11px_#00000040] h-auto hover:bg-[#f15a29]/80">
             <span className="relative w-fit mt-[-1.00px] font-THICCCBOI font-bold text-neutral-100 text-base max-[767px]:text-sm text-center tracking-[0] leading-[18px] whitespace-nowrap">
               Get in Touch
             </span>
           </Button>
+            </motion.div>
+          
         </div>
       </div>
     </section>
