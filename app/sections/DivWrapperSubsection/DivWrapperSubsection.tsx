@@ -47,11 +47,11 @@ export default function DivWrapperSubsection  ()  {
 
         <Card className="absolute w-[586px] h-[402px] max-[500px]:w-[300px] max-[500px]:h-[350px] max-[767px]:h-[260px] max-[1000px]:w-[480px] top-[214px] right-[100px] max-[1300px]:right-[150px] max-[1100px]:right-[300px] max-[1000px]:right-[400px]  max-[900px]:right-[500px] max-[800px]:right-[550px] max-[600px]:right-[750px] max-[530px]:right-[770px] max-[500px]:right-[900px] max-[365px]:right-[940px] max-[330px]:right-[960px] border-none">
           <CardContent className="relative w-[586px] max-[500px]:w-[300px] max-[500px]:h-[350px] max-[1000px]:w-[480px] h-[402px] max-[767px]:h-[260px] bg-neutral-100 rounded-xl border border-solid border-[#acacac] p-0">
-            <blockquote className="absolute w-[403px] max-[500px]:w-[100%] top-[46px] max-[767px]:top-[30px] max-[500px]:left-5 left-[46px] [-webkit-text-stroke:1px_#acacac] font-THICCCBOI font-semibold text-[#070707] text-[28px] max-[1000px]:text-[24px] max-[767px]:text-xl tracking-[0] leading-[normal]">
+            <blockquote className="absolute w-[403px] max-[500px]:w-[100%] top-[46px] max-[767px]:top-[30px] max-[500px]:left-5 left-[46px] [-webkit-text-stroke:1px_#acacac] font-THICCCBOI font-bold text-[#070707] text-[28px] max-[1000px]:text-[24px] max-[767px]:text-xl tracking-[0] leading-[normal]">
               &quot;They did an amazing job for our house.&quot;
             </blockquote>
 
-            <p className="absolute w-[484px] max-[1000px]:w-[430px] max-[500px]:w-[250px] max-[500px]:left-5 top-[142px] max-[767px]:top-[70px] max-[500px]:top-[100px] left-[46px] [-webkit-text-stroke:0.5px_#acacac] font-THICCCBOI font-medium text-[#070707] text-lg max-[1000px]:text-base max-[767px]:text-sm max-[1000px]:leading-[30px] max-[767px]:leading-[26px] tracking-[0] leading-[32.4px]">
+            <p className="absolute w-[484px] max-[1000px]:w-[430px] max-[500px]:w-[250px] max-[500px]:left-5 top-[142px] max-[767px]:top-[70px] max-[500px]:top-[100px] left-[46px] [-webkit-text-stroke:0.5px_#acacac] font-THICCCBOI font-semibold text-[#070707] text-lg max-[1000px]:text-base max-[767px]:text-sm max-[1000px]:leading-[30px] max-[767px]:leading-[26px] tracking-[0] leading-[32.4px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit cilisis
               pretium leo pellentesque ultrices est varius amet rhoncus sed
               euismod sit id purus elementum nulla tincidunt massa vel.
@@ -64,7 +64,7 @@ export default function DivWrapperSubsection  ()  {
 
             <div className="absolute w-8 h-0.5 top-[331px] max-[767px]:top-[200px] max-[500px]:top-[300px] left-28 max-[500px]:left-[80px] bg-neutral-800 border border-solid border-[#acacac]" />
 
-            <div className="absolute top-80 left-[149px] max-[500px]:left-[120px] max-[500px]:top-[290px] max-[767px]:top-[190px] [-webkit-text-stroke:1px_#acacac] font-THICCCBOI font-semibold text-[#070707] text-xl max-[1000px]:text-[18px] max-[767px]:text-[16px] tracking-[0] leading-[normal] whitespace-nowrap">
+            <div className="absolute top-80 left-[149px] max-[500px]:left-[120px] max-[500px]:top-[290px] max-[767px]:top-[190px] [-webkit-text-stroke:0.5px_#acacac] font-THICCCBOI font-semibold text-[#070707] text-xl max-[1000px]:text-[18px] max-[767px]:text-[16px] tracking-[0] leading-[normal] whitespace-nowrap">
               Tony Stark
             </div>
           </CardContent>
