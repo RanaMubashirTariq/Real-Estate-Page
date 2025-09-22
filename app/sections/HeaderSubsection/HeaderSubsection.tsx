@@ -54,7 +54,7 @@ export default function HeaderSubsection  () {
                 Get started
               </div>
 
-              <ArrowRightIcon className="relative w-3.5 h-3.5" />
+              <ArrowRightIcon className="relative w-3.5 h-3.5 text-black" />
             </Button>
           </motion.div>
         </div>

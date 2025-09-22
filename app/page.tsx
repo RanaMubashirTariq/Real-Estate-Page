@@ -11,14 +11,25 @@ import SectionComponentNodeSubsection from "./sections/SectionComponentNodeSubse
 
 export default function Home() {
   return (
-    <div className="w-full overflow-hidden bg-[#ffffff]">
+    <div className="w-full overflow-hidden bg-[#ffffff] relative">
+       <img
+            className="absolute w-[2px] left-[26px] max-[767px]:left-[15px] top-2.5  h-[1000px]  max-[1100px]:h-[900px] max-[760px]:h-[700px] max-[500px]:h-[1100px]"
+            alt="Frame"
+            src="/line-1.png"
+          />
+          <img
+            className="absolute  w-[2px] right-[26px] max-[767px]:right-[15px]   h-[1000px]  max-[1100px]:h-[900px] max-[760px]:h-[700px] max-[500px]:h-[1100px]"
+            alt="Frame"
+            src="/line-last.png"
+          />
             <div className="w-full bg-[#070707] h-[1200px] max-[1300px]:h-[1150px] max-[1100px]:h-[1050px] max-[760px]:h-[900px] max-[500px]:h-[1300px]">
             <div className="absolute w-[375px] h-[386px] top-0 right-[0px] bg-neutral-100 rounded-[187.5px/193px] blur-[250px] opacity-40" />
             <img
-            className="absolute inset-0 z-0 w-full h-[1200px] max-[1300px]:h-[1150px] max-[1100px]:h-[1050px] max-[760px]:h-[900px] max-[500px]:h-[1300px]"
+            className="absolute w-full  inset-0 z-0 h-[1200px] max-[1300px]:h-[1150px] max-[1100px]:h-[1050px] max-[760px]:h-[900px] max-[500px]:h-[1300px]"
             alt="Frame"
-            src="/frame-1947.png"
+            src="/frame-line.png"
           />
+                    
             <div id="home">
             <HeaderSubsection/>
             <FrameSubsection/>
