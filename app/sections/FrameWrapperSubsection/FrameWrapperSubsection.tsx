@@ -106,7 +106,7 @@ export default function FrameWrapperSubsection  ()  {
                 <div className="flex items-start gap-5 max-[1100px]:flex-wrap">
                   <Badge
                     variant="secondary"
-                    className="cursor-pointer transform transition-transform duration-300 hover:scale-90  flex w-full max-w-[180px] max-[1100px]:max-w-[200px] max-[1100px]:max-w-[180px] max-[1100px]:max-w-[150px] max-[1100px]:max-w-[100%]    items-center justify-center gap-2.5  py-2.5 bg-neutral-200 rounded-[5.41px] border border-solid border-[#0000001a] hover:bg-neutral-200"
+                    className="cursor-pointer transform transition-transform duration-300 hover:scale-90  flex w-full max-w-[180px] max-[1100px]:max-w-[200px] max-[1100px]:max-w-[180px] max-[1100px]:max-w-[150px] max-[1100px]:max-w-[100%]    items-center justify-center gap-2.5  py-2.5 bg-[#f3f3f3] rounded-[5.41px] border border-solid border-[#0000001a] hover:bg-[#f3f3f3]/80"
                   >
                     <img
                       className="w-8 h-8"
@@ -120,7 +120,7 @@ export default function FrameWrapperSubsection  ()  {
 
                   <Badge
                     variant="secondary"
-                    className="cursor-pointer transform transition-transform duration-300 hover:scale-90  flex w-full max-w-[180px] max-[1300px]:max-w-[140px] max-[1100px]:max-w-[200px] max-[1100px]:max-w-[150px] max-[1100px]:max-w-[140px] max-[1100px]:max-w-[120px] max-[1100px]:max-w-[100%]     items-center justify-center gap-2.5  py-2.5 bg-neutral-200 rounded-[5.41px] border border-solid border-[#0000001a] hover:bg-neutral-200"
+                    className="cursor-pointer transform transition-transform duration-300 hover:scale-90  flex w-full max-w-[180px] max-[1300px]:max-w-[140px] max-[1100px]:max-w-[200px] max-[1100px]:max-w-[150px] max-[1100px]:max-w-[140px] max-[1100px]:max-w-[120px] max-[1100px]:max-w-[100%]     items-center justify-center gap-2.5  py-2.5 bg-[#f3f3f3] rounded-[5.41px] border border-solid border-[#0000001a] hover:bg-[#f3f3f3]"
                   >
                     <img
                       className="w-8 h-8"
@@ -134,7 +134,7 @@ export default function FrameWrapperSubsection  ()  {
 
                   <Badge
                     variant="secondary"
-                    className="cursor-pointer transform transition-transform duration-300 hover:scale-90  flex w-full max-w-[180px] max-[1300px]:max-w-[140px] max-[1100px]:max-w-[100%] items-center justify-center gap-2.5  py-2.5 bg-neutral-200 rounded-[5.41px] border border-solid border-[#0000001a] hover:bg-neutral-200"
+                    className="cursor-pointer transform transition-transform duration-300 hover:scale-90  flex w-full max-w-[180px] max-[1300px]:max-w-[140px] max-[1100px]:max-w-[100%] items-center justify-center gap-2.5  py-2.5 bg-[#f3f3f3] rounded-[5.41px] border border-solid border-[#0000001a] hover:bg-[#f3f3f3]"
                   >
                     <img
                       className="w-8 h-8"
