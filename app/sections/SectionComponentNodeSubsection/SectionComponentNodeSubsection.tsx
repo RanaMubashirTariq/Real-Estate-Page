@@ -103,14 +103,14 @@ export default function SectionComponentNodeSubsection  () {
 
                   <div className="inline-flex items-start gap-4 max-[1100px]:flex-col  max-[767px]:flex-row max-[350px]:flex-col">
                     <div className="inline-flex items-start gap-3 rounded-md">
-                      <CalendarIcon className="w-6 h-6" />
+                      <img src='/calender-1.png' className="w-6 h-6" />
                       <span className="opacity-50 font-THICCCBOI font-regular text-neutral-800 text-lg tracking-[0] leading-[22.5px] max-[1100px]:text-[16px] max-[767px]:text-[14px] max-[767px]:leading-[20px] whitespace-nowrap">
                         {article.date}
                       </span>
                     </div>
 
                     <div className="inline-flex items-start gap-3 rounded-md">
-                      <ClockIcon className="w-6 h-6" />
+                      <img  src='/clock-1.png' className="w-6 h-6" />
                       <span className="opacity-50 font-THICCCBOI font-regular text-neutral-800 text-lg max-[1100px]:text-base max-[1100px]:leading-[20px] tracking-[0] leading-[22.5px] max-[767px]:text-[14px] max-[767px]:leading-[20px] whitespace-nowrap">
                         {article.readTime}
                       </span>
