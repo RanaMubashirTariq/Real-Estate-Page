@@ -91,7 +91,7 @@ export default function FrameSubsection  () {
       <Reveal className="absolute w-[654px] h-[87px] max-[900px]:w-[500px] max-[500px]:w-[350px] max-[400px]:w-[300px] max-[358px]:w-[270px] max-[900px]:h-[60px] max-[767px]:h-[140px] top-[891px] max-[1300px]:top-[860px] max-[1100px]:top-[780px] max-[1100px]:left-[80px] max-[1000px]:top-[830px]   max-[767px]:left-[35px]  max-[767px]:w-[400px] max-[767px]:top-[620px] max-[500px]:top-[1000px] max-[500px]:left-[30px] left-[132px] max-[358px] z-11 delay-400">
             <div className="relative w-[654px] h-[87px]  max-[900px]:w-[500px] max-[500px]:w-[350px] max-[400px]:w-[300px] max-[358px]:w-[270px] max-[900px]:h-[60px] max-[767px]:h-[140px] max-[767px]:w-[400px]    bg-neutral-100 rounded-[10px]">
               <Input
-                className="absolute top-[30px]  max-[900px]:top-[19px] left-[74px] h-[60px] max-[900px]:left-[54px] w-full font-THICCCBOI font-regular text-neutral-800 placeholder:text-neutral-800  text-[20px] max-[1100px]:text-[18px] max-[1000px]:text-[16px] max-[767px]:text-sm tracking-[0.20px] leading-[28px] border-0 bg-transparent p-0 h-auto focus-visible:ring-0 outline-none shadow-none"
+                className="absolute top-[30px]  max-[900px]:top-[19px] left-[74px] h-[60px] max-[900px]:left-[54px] w-full font-THICCCBOI font-regular text-[#070707]/70 placeholder:text-[#070707]/70  text-[20px] max-[1100px]:text-[18px] max-[1000px]:text-[16px] max-[767px]:text-sm tracking-[0.20px] leading-[28px] border-0 bg-transparent p-0 h-auto focus-visible:ring-0 outline-none shadow-none"
                 placeholder="Search by location..."
               />
 
