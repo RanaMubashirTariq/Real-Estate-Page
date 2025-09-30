@@ -3,7 +3,7 @@ import { ArrowRightIcon } from "lucide-react";
 import React, { useState } from "react";
 import { Button } from "../../components/ui/button";
 import Link from "next/link";
-import {motion} from 'framer-motion'
+import {motion, AnimatePresence} from 'framer-motion'
 
 export default function HeaderSubsection  () {
         
@@ -83,15 +83,22 @@ export default function HeaderSubsection  () {
 
 
  {/* Mobile menu (absolute positioned) */}
+ <AnimatePresence>
  {isOpen && (
-   <div className="hidden max-[1000px]:block absolute top-[100px] right-0 right-5 bg-[#070707] w-[180px] pl-5 py-5 rounded-[12px] z-50">
+   <motion.div
+     initial={{ x: 300, opacity: 0 }}
+     animate={{ x: 0, opacity: 1 }}
+     exit={{ x: 300, opacity: 0 }}
+     transition={{ type: 'tween', duration: 0.3 }}
+     className="hidden max-[1000px]:block absolute top-[60px] right-[10px] right-5 bg-[#070707] w-[200px] h-[80vh] pl-5 py-5 rounded-[12px] z-50"
+   >
            <div className="flex flex-col items-start gap-5">
            <nav className="flex flex-col items-start gap-8 max-[1000px]:gap-4 relative flex-[0_0_auto]">
   {navigationItems.map((item, index) => (
     <Link
       key={item.name}
       href={item.id}
-      onClick={() => setIsOpen(false)} // close menu after clicking
+      onClick={() => setIsOpen(false)}
       className={`relative w-fit ${
         index === 0 ? "mt-[-1.00px]" : ""
       } opacity-70 font-THICCCBOI font-regular text-neutral-100 text-lg max-[1000px]:text-sm text-center tracking-[0] leading-5 whitespace-nowrap hover:opacity-100 transition-opacity`}
@@ -102,7 +109,7 @@ export default function HeaderSubsection  () {
 </nav>
 
 
-          <div className=" flex w-[156px] h-[58px] max-[1000px]:w-[120px] max-[1000px]:h-[40px] items-start justify-start gap-4">
+          <div className=" flex w-[156px] h-[58px] max-[1000px]:w-[120px] max-[1000px]:h-[40px] items-start justify-start gap-4 mt-[20px]">
           <motion.div
               whileHover={{scale:0.9}}
               whileTap={{scale:1}}
@@ -117,8 +124,9 @@ export default function HeaderSubsection  () {
           </motion.div>
         </div>
            </div>
-   </div>
+   </motion.div>
  )}
+ </AnimatePresence>
     </header>
   );
 };
