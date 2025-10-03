@@ -34,12 +34,12 @@ export default function Marquee(){
 
     return(
         <>
-          <section className="inline-flex items-center gap-[172px] max-[1000px]:gap-10 max-[767px]:flex-col relative py-[120px] px-[100px] max-[1100px]:py-[80px] max-[1100px]:px-[50px] max-[1000px]:py-[60px] max-[500px]:py-10 max-[767px]:px-[25px] w-full">
-        <h2 className="w-[200px] font-THICCCBOI font-semibold text-neutral-800 text-[32px] max-[1000px]:text-[28px] max-[767px]:text-[24px] max-[767px]:text-center tracking-[0] leading-[normal] whitespace-nowrap">
+          <section className="inline-flex items-center min-[1500px]:justify-between gap-[172px] max-[1000px]:gap-10 max-[767px]:flex-col relative py-[120px] px-[150px] max-[1500px]:px-[100px] max-[1100px]:py-[80px] max-[1100px]:px-[50px] max-[1000px]:py-[60px] max-[500px]:py-10 max-[767px]:px-[25px] w-full">
+        <h2 className="w-[200px] font-THICCCBOI font-semibold text-neutral-800 text-[36px] max-[1500px]:text-[32px] max-[1000px]:text-[28px] max-[767px]:text-[24px] max-[767px]:text-center tracking-[0] leading-[normal] whitespace-nowrap">
           Trusted by
         </h2>
 
-        <div className="w-[911px] overflow-hidden max-[1000px]:w-[1200px]">
+        <div className="min-[1500px]:w-[1100px] w-[911px] overflow-hidden max-[1000px]:w-[1200px]">
           <div className="flex items-center gap-16  animate-marquee will-change-transform">
             {[...trustedCompanies , ...trustedCompanies , ...trustedCompanies , ...trustedCompanies].map((company, index) => (
               <img

@@ -28,7 +28,7 @@ export default function SectionComponentNodeSubsection  () {
   return (
     <section className="w-full bg-cover bg-[50%_50%]">
       <img src="/back-img.png" className="w-full h-[1460px] max-[1100px]:h-[1260px] max-[1000px]:h-[1750px] max-[767px]:h-[2030px] max-[500px]:h-[2100px] max-[400px]:h-[2250px] max-[767px]:text-[24px] max-[350px]:h-[2350px] absolute  z-0" alt="" />
-      <div className="flex flex-col w-full max-w-[1240px] mx-auto px-4 items-start gap-12 z-11 relative py-[120px] max-[1100px]:py-20 max-[1000px]:py-15 max-[767px]:py-10 px-[50px] max-[767px]:px-[25px]">
+      <div className="flex flex-col w-full max-[1500px]:max-w-[1240px] max-[1500px]:mx-auto px-4 items-start gap-12 z-11 relative py-[120px] max-[1100px]:py-20 max-[1000px]:py-15 max-[767px]:py-10 min-[1500px]:px-[150px] px-[50px] max-[767px]:px-[25px]">
         <h2 className="font-THICCCBOI font-bold text-neutral-800 text-[70px] max-[1100px]:text-[54px] max-[767px]:text-[42px] tracking-[0] leading-[normal]">
           Articles &amp; Resources
         </h2>
@@ -37,12 +37,12 @@ export default function SectionComponentNodeSubsection  () {
           <div className="relative w-full h-[570px] max-[1100px]:h-[450px]">
             <div className="relative h-[570px]">
               <img
-                className="w-[900px] h-[570px] max-[1100px]:w-[700px] max-[1100px]:h-[450px] object-cover rounded-xl"
+                className="min-[1500px]:w-[1100px] w-[900px] h-[570px] max-[1100px]:w-[700px] max-[1100px]:h-[450px] object-cover rounded-xl"
                 alt="Featured article image"
                 src='/middle-img.png'
               />
 
-              <Card className="w-[640px] max-[1000px]:w-[500px] max-[767px]:w-[350px] max-[400px]:w-[280px] max-[767px]:top-[120px] absolute top-[57px] right-[-100px] max-[1300px]:right-[-50px]  max-[1100px]:right-0  bg-neutral-100 border-[#acacac]">
+              <Card className="w-[640px] max-[1000px]:w-[500px] max-[767px]:w-[350px] max-[400px]:w-[280px] max-[767px]:top-[120px] absolute top-[57px] right-[150px] max-[1700px]:right-[0px] max-[1500px]:right-[-100px] max-[1300px]:right-[-50px]  max-[1100px]:right-0  bg-neutral-100 border-[#acacac]">
                 <CardContent className="p-12 max-[767px]:p-6 max-[400px]:p-5">
                   <div className="flex flex-col items-start gap-8 max-[500px]:gap-4">
                     <div className="flex flex-col items-start gap-6 w-full">

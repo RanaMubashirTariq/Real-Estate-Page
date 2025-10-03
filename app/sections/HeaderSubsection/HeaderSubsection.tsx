@@ -22,7 +22,7 @@ export default function HeaderSubsection  () {
   
 
   return (
-    <header className="flex  w-full items-center justify-between px-[100px] max-[1100px]:px-[50px] py-8 max-[767px]:px-[25px] max-[767px]:py-5  w-full relative z-50">
+    <header className=" flex  w-full items-center justify-between px-[150px] max-[1500px]:px-[100px] max-[1100px]:px-[50px] py-8 max-[767px]:px-[25px] max-[767px]:py-5  w-full relative z-50">
         <div className="flex w-full max-w-[664px] items-center gap-10">
           <div className="inline-flex items-center  relative flex-[0_0_auto]">
             <img className="relative w-[176.97px] max-[767px]:w-[140px] h-[37.97px]" src='/logo.png' alt="Group" />
@@ -90,7 +90,7 @@ export default function HeaderSubsection  () {
      animate={{ x: 0, opacity: 1 }}
      exit={{ x: 300, opacity: 0 }}
      transition={{ type: 'tween', duration: 0.3 }}
-     className="hidden max-[1000px]:block absolute top-[60px] right-[10px] right-5 bg-[#070707] w-[200px] h-[80vh] pl-5 py-5 rounded-[12px] z-50"
+     className="hidden max-[1000px]:block absolute top-[60px] right-[10px] right-0 bg-[#070707] w-[200px] h-[100vh] pl-5 py-5 rounded-[12px] z-50"
    >
            <div className="flex flex-col items-start gap-5">
            <nav className="flex flex-col items-start gap-8 max-[1000px]:gap-4 relative flex-[0_0_auto]">
@@ -109,7 +109,7 @@ export default function HeaderSubsection  () {
 </nav>
 
 
-          <div className=" flex w-[156px] h-[58px] max-[1000px]:w-[120px] max-[1000px]:h-[40px] items-start justify-start gap-4 mt-[20px]">
+          <div className="  flex w-[156px] h-[58px] max-[1000px]:w-[120px] max-[1000px]:h-[40px] items-start justify-start gap-4 mt-[20px]">
           <motion.div
               whileHover={{scale:0.9}}
               whileTap={{scale:1}}

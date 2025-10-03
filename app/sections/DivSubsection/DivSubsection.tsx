@@ -33,8 +33,8 @@ export default function DivSubsection  () {
   ];
 
   return (
-    <section className="flex items-center gap-[73px] max-[1000px]:gap-[30px] max-[1000px]:flex-col max-[1000px]:items-start w-full relative px-[100px] pt-[150px] pb-[170px] max-[1100px]:px-[50px] max-[1100px]:pt-[100px] max-[1100px]:pb-[120px] max-[767px]:px-[25px] max-[1000px]:py-[60px] max-[767px]:py-10">
-      <Reveal className=" w-[613px] max-[1000px]:w-[100%] max-[1000px]:h-[500px] max-[767px]:h-[300px] h-[741px] delay-0">
+    <section className="flex items-center min-[1500px]:justify-between gap-[73px] max-[1000px]:gap-[30px] max-[1000px]:flex-col max-[1000px]:items-start w-full relative px-[150px] max-[1500px]:px-[100px] pt-[150px] pb-[170px] max-[1100px]:px-[50px] max-[1100px]:pt-[100px] max-[1100px]:pb-[120px] max-[767px]:px-[25px] max-[1000px]:py-[60px] max-[767px]:py-10">
+      <Reveal className="w-[713px] max-[1500px]:w-[613px] max-[1000px]:w-[100%] max-[1000px]:h-[500px] max-[767px]:h-[300px] h-[741px] delay-0">
              <img src="/div-subsection.png" className="w-full h-full max-[1100px]:w-[500px] max-[1000px]:w-[100%]" alt="" />
       </Reveal>
 

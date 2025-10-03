@@ -44,7 +44,7 @@ export default function FrameWrapperSubsection  ()  {
   return (
     <section className="flex flex-col w-full items-start gap-[42px] max-[767px]:gap-[30px] relative px-[100px] pt-[120px] pb-[156px] max-[1100px]:px-[50px] max-[1100px]:py-[80px] max-[1100px]:pb-[100px] max-[767px]:px-[25px] max-[767px]:py-10">
       <header className="flex items-center justify-between w-full max-[767px]:flex-col max-[767px]:items-start gap-4">
-        <h2 className="font-THICCCBOI font-bold text-neutral-800 text-[70px] max-[1100px]:text-[54px] max-[1100px]:leading-[67px] max-[767px]:text-[42px] max-[767px]:leading-[56px] tracking-[0] leading-[87.5px]">
+        <h2 className="font-THICCCBOI font-bold text-neutral-800 text-[70px] max-[1100px]:text-[54px] max-[1100px]:leading-[67px] max-[767px]:text-[42px] max-[767px]:leading-[56px] max-[500px]:text-[36px] max-[500px]:leading-[48px] tracking-[0] leading-[87.5px]">
           Popular Resident
         </h2>
 
@@ -57,7 +57,7 @@ export default function FrameWrapperSubsection  ()  {
           variant="ghost"
           className="flex items-center gap-2 h-auto p-0 hover:bg-transparent cursor-pointer "
         >
-          <span className=" font-THICCCBOI font-regular text-neutral-800 text-base tracking-[0] leading-6">
+          <span className=" font-THICCCBOI font-regular text-neutral-800 text-lg max-[1500px]:text-base tracking-[0] leading-6">
             Explore All
           </span>
           <img src='/vector-710.png' className="w-7 h-[15px]" />

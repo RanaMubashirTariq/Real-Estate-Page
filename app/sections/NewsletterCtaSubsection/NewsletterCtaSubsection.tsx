@@ -6,8 +6,8 @@ import {motion} from 'framer-motion'
 
 export default function NewsletterCtaSubsection  () {
   return (
-    <div className="w-full px-[100px] max-[1100px]:px-[50px] max-[767px]:px-[25px] pt-[150px] max-[1100px]:pt-[150px] max-[1000px]:pt-[100px] max-[767px]:pt-10">
-         <section className="w-full max-w-[1240px] h-[354px] max-[500px]:h-[300px] bg-[#f15a29] rounded-3xl overflow-hidden relative">
+    <div className="w-full px-[150px] max-[1500px]:px-[100px] max-[1100px]:px-[50px] max-[767px]:px-[25px] pt-[150px] max-[1100px]:pt-[150px] max-[1000px]:pt-[100px] max-[767px]:pt-10">
+         <section className="w-full max-[1500px]:max-w-[1240px] h-[354px] max-[500px]:h-[300px] bg-[#f15a29] rounded-3xl overflow-hidden relative">
         <img src="/group-1.png" className="w-full h-full absolute inset-0" alt="" />
       <div className="relative h-[354px] bg-[100%_100%]">
         <h2 className="absolute w-[450px] max-[1100px]:w-[400px] max-[767px]:w-[300px] top-[123px] max-[1100px]:top-[70px] max-[500px]:top-10 left-[100px] max-[1300px]:left-[50px] max-[767px]:left-[25px] font-THICCCBOI font-bold text-neutral-100 text-5xl max-[1100px]:text-[38px] max-[1100px]:leading-[43px] max-[767px]:text-[28px] max-[767px]:leading-[34px] tracking-[0] leading-[53px]">

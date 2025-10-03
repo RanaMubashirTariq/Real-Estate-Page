@@ -23,10 +23,10 @@ export default function FrameSubsection  () {
   ];
 
   return (
-    <section className="w-full relative px-[100px] max-[1100px]:px-[50px] max-[767px]:px-[25px] max-[1100px]:pt-[60px] max-[1000px]:pt-10 pt-[98px] ">
+    <section className="w-full relative px-[150px] max-[1500px]:px-[100px] max-[1100px]:px-[50px] max-[767px]:px-[25px] max-[1100px]:pt-[60px] max-[1000px]:pt-10 max-[767px]:pt-5 pt-[98px] ">
       <div className="flex items-center justify-between w-full gap-10 max-[767px]:gap-4 max-[1000px]:flex-col max-[1000px]:items-start">
         <Reveal className="flex-1 max-w-[628px] delay-0">
-          <h1 className="font-THICCCBOI font-bold text-neutral-100 text-[90px] max-[1300px]:text-[78px] max-[1300px]:leading-[92px] max-[1100px]:text-[60px] max-[1100px]:leading-[74px] max-[1000px]:text-[48px] max-[1000px]:leading-[62px] tracking-[0] leading-[104.4px]">
+          <h1 className="font-THICCCBOI font-bold text-neutral-100 text-[90px] max-[1300px]:text-[78px] max-[1300px]:leading-[92px] max-[1100px]:text-[60px] max-[1100px]:leading-[74px] max-[1000px]:text-[48px] max-[1000px]:leading-[62px] max-[767px]:text-[36px] max-[767px]:leading-[48px] tracking-[0] leading-[104.4px]">
             <span className="text-white">The Best Place To Find Your </span>
             <span className="text-[#f15a29]">Dream House</span>
           </h1>
@@ -46,7 +46,7 @@ export default function FrameSubsection  () {
                  >
               <Button
                  
-            className="cursor-pointer h-auto  gap-1 px-6 py-5 max-[767px]:px-4 max-[767px]:py-4 bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_6px_#00000040] hover:bg-primary-color/90">
+            className="cursor-pointer h-auto max-[767px]:h-10  gap-1 px-6 py-5 max-[767px]:px-4 max-[767px]:py-4 bg-[#f15a29] rounded-xl shadow-[inset_5px_5px_6px_#00000040] hover:bg-primary-color/90">
               <span className="font-THICCCBOI font-bold text-neutral-100 text-base max-[767px]:text-sm text-center tracking-[0] leading-[18px] whitespace-nowrap">
                 Get in Touch
               </span>
@@ -88,7 +88,9 @@ export default function FrameSubsection  () {
           <img src="/reactangle.jpg" className="w-full h-[465px] max-[1000px]:h-[350px] max-[767px]:h-[250px] object-cover rounded-[10px] " alt="" />
       </Reveal>
 
-      <Reveal className="absolute w-[654px] h-[87px] max-[900px]:w-[500px] max-[500px]:w-[350px] max-[400px]:w-[300px] max-[358px]:w-[270px] max-[900px]:h-[60px] max-[767px]:h-[140px] top-[891px] max-[1300px]:top-[860px] max-[1100px]:top-[780px] max-[1100px]:left-[80px] max-[1000px]:top-[830px]   max-[767px]:left-[35px]  max-[767px]:w-[400px] max-[767px]:top-[620px] max-[500px]:top-[1000px] max-[500px]:left-[30px] left-[132px] max-[358px] z-11 delay-400">
+      <Reveal className="absolute w-[654px] h-[87px] max-[900px]:w-[500px] max-[500px]:w-[350px] max-[400px]:w-[300px] max-[358px]:w-[270px] max-[900px]:h-[60px] max-[767px]:h-[140px]
+       top-[891px] max-[1300px]:top-[860px] max-[1100px]:top-[780px] max-[1100px]:left-[80px] max-[1000px]:top-[830px]   max-[365px]:left-[30px]  max-[767px]:w-[400px] max-[767px]:top-[570px]
+        max-[500px]:top-[900px] max-[500px]:left-[40px] left-[132px] max-[358px]:left-[40px] max-[330px]:left-[25px] z-11 delay-400">
             <div className="relative w-[654px] h-[87px]  max-[900px]:w-[500px] max-[500px]:w-[350px] max-[400px]:w-[300px] max-[358px]:w-[270px] max-[900px]:h-[60px] max-[767px]:h-[140px] max-[767px]:w-[400px]    bg-neutral-100 rounded-[10px]">
               <Input
                 className="absolute top-[30px]  max-[900px]:top-[19px] left-[74px] h-[60px] max-[900px]:left-[54px] w-full font-THICCCBOI font-regular text-[#070707]/70 placeholder:text-[#070707]/70  text-[20px] max-[1100px]:text-[18px] max-[1000px]:text-[16px] max-[767px]:text-sm tracking-[0.20px] leading-[28px] border-0 bg-transparent p-0 h-auto focus-visible:ring-0 outline-none shadow-none"
@@ -105,7 +107,7 @@ export default function FrameSubsection  () {
                    whileHover={{scale:0.9}}
                    whileTap={{scale:1}}
                className="absolute top-2 right-2 max-[767px]:top-20  max-[767px]:left-2">
-               <Button className="cursor-pointer    w-[188px] h-[71px] max-[900px]:w-[130px] max-[767px]:h-[40px] max-[900px]:h-[45px]  max-[900px]:py-[15px] pt-[26px] pb-[22px]  bg-[#f15a29] rounded-[10px] shadow-[inset_5px_5px_4px_#00000040] font-THICCCBOI font-bold text-neutral-100 text-xl max-[1100px]:text-[18px] max-[1000px]:text-[16px] max-[767px]:text-sm tracking-[0.20px] leading-[normal] h-auto">
+               <Button className="cursor-pointer  max-[767px]:w-[100%]  w-[188px] h-[71px] max-[900px]:w-[130px] max-[767px]:h-[40px] max-[900px]:h-[45px]  max-[900px]:py-[15px] pt-[26px] pb-[22px]  bg-[#f15a29] rounded-[10px] shadow-[inset_5px_5px_4px_#00000040] font-THICCCBOI font-bold text-neutral-100 text-xl max-[1100px]:text-[18px] max-[1000px]:text-[16px] max-[767px]:text-sm tracking-[0.20px] leading-[normal] h-auto">
                 Search Now
               </Button>
                </motion.div>

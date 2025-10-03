@@ -22,11 +22,11 @@ export default function FooterSubsection  () {
   ];
 
   const socialLinks = [
-    { icon: '/facebook.png', name: "Facebook" , links:'https://www.facebook.com/EstatePro' },
-    { icon: '/twitter.png', name: "Twitter" , links:'https://twitter.com/EstatePro' },
-    { icon: '/instagram.png', name: "Instagram" , links:'https://www.instagram.com/EstatePro' },
-    { icon: '/linkin.png', name: "LinkedIn" , links:'https://www.linkedin.com/company/EstatePro' },
-    { icon: '/youtube.png', name: "YouTube" , links:'https://www.youtube.com/@EstatePro' },
+    { icon: '/facebook.png', name: "Facebook" , links:'https://www.facebook.com/' },
+    { icon: '/twitter.png', name: "Twitter" , links:'https://twitter.com/' },
+    { icon: '/instagram.png', name: "Instagram" , links:'https://www.instagram.com/' },
+    { icon: '/linkin.png', name: "LinkedIn" , links:'https://www.linkedin.com/' },
+    { icon: '/youtube.png', name: "YouTube" , links:'https://www.youtube.com/' },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function FooterSubsection  () {
         />
 
 
-        <div className="w-full flex items-start justify-between max-[900px]:flex-col gap-5 px-[100px] pt-[120px] max-[1100px]:pt-[80px] max-[767px]:pt-10  max-[1100px]:px-[50px] max-[767px]:px-[25px] relative z-20">
+        <div className="w-full flex items-start justify-between max-[900px]:flex-col gap-5 px-[150px] max-[1500px]:px-[100px] pt-[120px] max-[1100px]:pt-[80px] max-[767px]:pt-10  max-[1100px]:px-[50px] max-[767px]:px-[25px] relative z-20">
         <div className="w-full flex flex-col items-start gap-6 relative">
                
                <div className="flex items-center">
